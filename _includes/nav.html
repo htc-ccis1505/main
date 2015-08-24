@@ -22,22 +22,42 @@
                 <a class="page-scroll" href="#page-top"></a>
               </li>
               <li>
-                <a class="page-scroll" href="#overview">Overview</a>
+                <a class="page-scroll" href="{{ "/index.html#overview" | prepend:site.baseurl }} ">Overview</a>
               </li>
               <li>
-                <a class="page-scroll" href="#grades">Grades</a>
+                <a class="page-scroll" href="{{ "/index.html#grades" | prepend:site.baseurl }}">Grades</a>
               </li>
               <li>
-                <a class="page-scroll" href="#instructor">Instructor</a>
+                <a class="page-scroll" href="{{ "/index.html#instructor" | prepend:site.baseurl }}">Instructor</a>
               </li>
               <li>
-                <a class="page-scroll" href="#resources">Resources</a>
+                <a class="page-scroll" href="{{ "/index.html#resources" | prepend:site.baseurl }}">Resources</a>
               </li>
+
+                <!-- Class Info Dropdowm -->
+                <li class="dropdown">
+                    <a id="docs-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" role="button" aria-expanded="false">
+                        Class Info&nbsp;
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                    {% for item in site.semesters %}
+                        <li role="presentation">
+                            <a href="{{ item.url | prepend:site.baseurl}}" role="menuitem" tabindex="-1">
+                                {{ item.semester }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+
+                <!-- End Documents -->
 
                 <!-- End Nav items -->
             </ul>
             <ul class="navbar-nav nav navbar-right">
-              <li class="hidden-xs">
+              <li class="hidden-sm">
                   <div title="Hennepin Technical College">
                   <a id="htc-button" class="btn btn-primary" href="https://www.hennepintech.edu/">
                   </a></div>
