@@ -17,44 +17,44 @@
         <div class="collapse navbar-collapse js-navbar-collapse">
             <ul class="navbar-nav nav">
 
-              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              {% if page.isMain %}
+              <!-- Hidden li included to remove active class from overview link when scrolled up -->
               <li class="hidden">
                 <a class="page-scroll" href="#page-top"></a>
               </li>
               <li>
-                <a class="page-scroll" href="{{ "/index.html#overview" | prepend:site.baseurl }} ">Overview</a>
+                <a class="page-scroll" href="#overview" >Overview</a>
               </li>
               <li>
-                <a class="page-scroll" href="{{ "/index.html#grades" | prepend:site.baseurl }}">Grades</a>
+                <a class="page-scroll" href="#grades" >Grades</a>
               </li>
               <li>
-                <a class="page-scroll" href="{{ "/index.html#instructor" | prepend:site.baseurl }}">Instructor</a>
+                <a class="page-scroll" href="#instructor" >Instructor</a>
               </li>
               <li>
-                <a class="page-scroll" href="{{ "/index.html#resources" | prepend:site.baseurl }}">Resources</a>
+                <a class="page-scroll" href="#resources" >Resources</a>
               </li>
+              {% endif %}
+              <!-- Class Info Dropdowm -->
+              <li class="dropdown">
+                  <a id="docs-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown"
+                     aria-haspopup="true" role="button" aria-expanded="false">
+                      Class Info&nbsp;
+                      <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                  {% for item in site.semesters %}
+                      <li role="presentation">
+                          <a href="{{ item.url | prepend:site.baseurl}}" role="menuitem" tabindex="-1">
+                              {{ item.semester }}
+                          </a>
+                      </li>
+                  {% endfor %}
+                  </ul>
+              </li>
+              <!-- End Dropdown -->
 
-                <!-- Class Info Dropdowm -->
-                <li class="dropdown">
-                    <a id="docs-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown"
-                       aria-haspopup="true" role="button" aria-expanded="false">
-                        Class Info&nbsp;
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                    {% for item in site.semesters %}
-                        <li role="presentation">
-                            <a href="{{ item.url | prepend:site.baseurl}}" role="menuitem" tabindex="-1">
-                                {{ item.semester }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </li>
-
-                <!-- End Documents -->
-
-                <!-- End Nav items -->
+              <!-- End Nav items -->
             </ul>
             <ul class="navbar-nav nav navbar-right">
               <li class="hidden-sm">
