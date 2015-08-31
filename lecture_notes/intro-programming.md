@@ -26,7 +26,7 @@ Put very simply, it is a way to solve a problem. It helps you find solutions for
 
  - generalization
  - abstraction
- - decomposition
+ - composition & decomposition
  - creativity
  - data and information
  - algorithms

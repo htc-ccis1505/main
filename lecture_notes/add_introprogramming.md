@@ -3,7 +3,7 @@ layout: notes
 ---
 
 # Additional Resources
-At the bottom of the lecture notes, I'll include more information and resources for you to review after class. These are things that will either add to and complement the material discussed in lecture, or they will introduce you to material that will be discussed the following week.  (These are also great things to use in the chatroom as conversation starters.)  
+Each week I'll try to include more information and resources for you to review after class. These are things that will either add to and complement the material discussed in lecture, or they will introduce you to material that will be discussed the following week.  (These are also great things to use in the chatroom as conversation starters.)  
 
 
 ## Computational Thinking

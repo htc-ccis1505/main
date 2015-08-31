@@ -7,7 +7,7 @@ layout: page
   <h1 class="header-bar">Session {{ forloop.index }}</h1>
   <div class="text-center">
     {% for lecture in session.lectures %}
-    <p>{{ lecture.title }}:
+    <p>{{ lecture.title }}{% if lecture.slides_url or lecture.notes_url %}:{% endif %}
       {% if lecture.slides_url %}
       <a href="{{ lecture.slides_url | prepend: site.baseurl }}">Slides</a>
       {% endif %}
@@ -19,6 +19,7 @@ layout: page
       {% endif %}
     </p>
     {% endfor %}
+
     {% for lab in session.labs %}
     <p>Lab: <a href="{{ lab.url }}" target="_blank"> {{ lab.title }} </a>
       {% if lab.worksheet_url %}
@@ -26,14 +27,22 @@ layout: page
       {% endif %}
     </p>
     {% endfor %}
+
     {% if session.resources_url %}
     <p>
       <a href="{{ session.resources_url | prepend: site.baseurl }}">Additional Resources</a>
     </p>
     {% endif %}
+
     {% if session.practice_url %}
     <p>
       <a href="{{ session.practice_url | prepend: site.baseurl }}">Practice Problems</a>
+    </p>
+    {% endif %}
+    
+    {% if session.project %}
+    <p>
+      <a href="{{ session.project.url | prepend: site.baseurl }}">{{ session.project.title }}</a>
     </p>
     {% endif %}
   </div>
