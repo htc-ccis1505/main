@@ -25,12 +25,17 @@ layout: page
       (<a href="{{ lab.worksheet_url | prepend: site.baseurl }}">Lab Worksheet</a>)
       {% endif %}
     </p>
+    {% endfor %}
+    {% if session.resources_url %}
+    <p>
+      <a href="{{ session.resources_url | prepend: site.baseurl }}">Additional Resources</a>
+    </p>
+    {% endif %}
     {% if session.practice_url %}
     <p>
       <a href="{{ session.practice_url | prepend: site.baseurl }}">Practice Problems</a>
     </p>
     {% endif %}
-    {% endfor %}
   </div>
 </section>
 {% endfor %}
