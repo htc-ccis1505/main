@@ -37,6 +37,14 @@ We talked a little that first day of class about learning from and not being afr
 I'd encourage you not to get too distracted by python yet, and to use good judgement on where to put your limited time.  However, there are many, many python resources and references on the web, including this one that allows you to play with python in the browser:
 [Learn Python](http://www.learnpython.org) browser based tutorials from learnpython.org
 
+### Dr. Ivan Joseph: The skill of self confidence
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w-HYZv6HzAs" frameborder="0" allowfullscreen></iframe>
+
+> I am the master of my fate,  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am the captain of my soul.  
+> ~ Invictus, William Ernest Henley
+
 
 ### Set it up at home!
 We'll be getting to this later, but if you are curious, no need to wait.
