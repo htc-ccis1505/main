@@ -9,6 +9,11 @@ Each week I'll try to include more information and resources for you to review a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6hfOvs8pY1k" frameborder="0" allowfullscreen></iframe>
 
+### Kevin Slavin: How Algorithms Shape our World
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ENWVRcMGDoU" frameborder="0" allowfullscreen></iframe>
+
+
 
 ## Lab Algorithms
 Some algorithms from lab explained for the Yale CS50 class.
@@ -37,7 +42,3 @@ You might want to mute this...  Note the name of the algorithm is at the top alo
 ### Search at YouTube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BsCeNCVb-d8" frameborder="0" allowfullscreen></iframe>
-
-### Kevin Slavin: How Algorithms Shape our World
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ENWVRcMGDoU" frameborder="0" allowfullscreen></iframe>
