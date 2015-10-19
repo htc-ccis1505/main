@@ -47,12 +47,12 @@ If this seems a little crazy, that's because it is.  For this problem, a for loo
 
 This example is however a very simple way to introduce the key parts of a recursive function call:
 
-- the base (end) case - this does not refer back to itself.  
-- the recursive case - this is where the function calls itself with an input value that is closer to the base case.
+- the base (end) case - the one that does not refer back to itself.  
+- the recursive case - calls itself with an input value that is closer to the base case.
 
 ### Base Case
 
-We always need a way to figure out that we're done and shouldn't make the recursive call again. This is the simplest case for the problem.  Like the 0 - Blastoff case for the countdown, it is what ends the stack of recursive calls and starts the return back through that stack to the original call.
+We always need a way to figure out that we're done and shouldn't make the recursive call again. This is the simplest case for the problem.  Like the if 0 say Blastoff case for the countdown, it is what ends the stack of recursive calls and starts the return back through that stack to the original call.
 
 It is very important to find the base case for a recursive problem.  Generally it is easiest to determine what the base case is first.
 
