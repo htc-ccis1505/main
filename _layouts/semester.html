@@ -39,12 +39,12 @@ layout: page
       <a href="{{ session.practice_url | prepend: site.baseurl }}">Practice Problems</a>
     </p>
     {% endif %}
-    
-    {% if session.project %}
+
+    {% for project in session.project %}
     <p>
       <a href="{{ session.project.url | prepend: site.baseurl }}">{{ session.project.title }}</a>
     </p>
-    {% endif %}
+    {% endfor %}
   </div>
 </section>
 {% endfor %}
