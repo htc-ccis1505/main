@@ -21,11 +21,27 @@ layout: page
     {% endfor %}
 
     {% for lab in session.labs %}
+    {% if lab.inclass %}
+      <p>In-Class Lab: <a href="{{ lab.inclass.url }}" target="_blank"> {{ lab.inclass.title }} </a>
+        {% if lab.inclass.worksheet_url %}
+        (<a href="{{ lab.inclass.worksheet_url | prepend: site.baseurl }}">Lab Worksheet</a>)
+        {% endif %}
+      </p>
+      {% if lab.athome %}
+      <p>Homework Lab: <a href="{{ lab.athome.url }}" target="_blank"> {{ lab.athome.title }} </a>
+        {% if lab.athome.worksheet_url %}
+        (<a href="{{ lab.athome.worksheet_url | prepend: site.baseurl }}">Lab Worksheet</a>)
+        {% endif %}
+      </p>
+      {% endif %}
+    {% else %}
+    <!--Do the old stuff -->
     <p>Lab: <a href="{{ lab.url }}" target="_blank"> {{ lab.title }} </a>
       {% if lab.worksheet_url %}
       (<a href="{{ lab.worksheet_url | prepend: site.baseurl }}">Lab Worksheet</a>)
       {% endif %}
     </p>
+    {% endif %}
     {% endfor %}
 
     {% if session.resources_url %}

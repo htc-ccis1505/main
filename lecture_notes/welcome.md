@@ -14,17 +14,24 @@ I'm a full-time instructor here at Hennepin Tech. I've been teaching here since 
 Throughout the semester I'll post news on Twin Cities IT events. I try to stay fairly well involved in the local developer community, though that is harder now that I'm teaching every week night. However I encourage you to go to these events, it's a great opportunity to see what is going on in the area and learn something new.  Plus you get to meet people. I can't stress the "meet people" part enough, it's very helpful as you're getting started.
 
 ### Office Hours
-4:00 - 5:30 pm Monday & Tuesday, BPC<br>
-4:00 - 5:30 pm Wednesday, EPC<br>
-4:00 - 5:30 pm Thursday, alternate campuses<br>
-Online __by apt.__ with screen share via Go To Meeting
+EDEN PRAIRIE CAMPUS
+Location: H-Pod Staff Area
+4:30 - 5:30 PM Monday & Wednesday
 
-__Important__: Email or the class chatroom is the best way to get in touch with me.  Technically I do have an office phone, but I am only in my office once or twice a week.  On the other hand, I am logged into email and our chatroom all day, and while I may not always be able to respond immediately, I will see your message and get back to you as soon as I am able.
+BROOKLYN PARK CAMPUS
+Location: H-Pod Staff Area
+11:00 AM - noon Thursday
+
+ONLINE
+Online appointments are available by request.
+Weekend appointment times may be available, but must be requested before 5 PM on Friday.
+
+__Important__: The class chatroom or email is the best way to get in touch with me.  Technically I do have an office phone, but I am only in my office once or twice a week.  On the other hand, I am logged into email and our chatroom all day, and while I may not always be able to respond immediately, I will see your message and get back to you as soon as I am able.
 
 ## Courses
 This is a combined section of two different courses.  The home page lists their official course descriptions and goals.  You'll notice if you look that there is an awful lot of overlap.  That's why we teach them together.  The 4 credit Fundamentals of Programming class has a few extra goals.  The nights that we cover that material, the 3 credit Web Programming Overview students do not need to attend (though you are welcome to if you are curious), and thus there is less work.
 
-If you have questions or concerns about whether or not you are in the *right* course for your program or the *best* course for your future goals and objectives, talk with me over break. If you want to be in the other course, we can switch you between them.  Note that this is easy to do now, and somewhat harder to do later at least if you want to drop a credit.  The short answer to this is that if you are not currently in our Programming program, you do not *need* to be in the 4 credit class.
+If you have questions or concerns about whether or not you are in the *right* course for your program or the *best* course for your future goals and objectives, talk with me over break. If you want to be in the other course, we can switch you between them.  Note that this is easy to do now, and somewhat harder to do later at least if you want to drop a credit.  
 
 
 ## Attendance & Participation
@@ -33,14 +40,14 @@ It is really important that you are here in class every week and that you remain
 If you must miss class, arrive late, or leave early, please send me an email and let me know.  You are still responsible for the material covered, so you may want to get notes or updates from a classmate.  
 
 ## In-class schedule
-15 min. retrospective - review last week (6:00 - 6:15)<br>
-45 min. lecture - new ideas, code demo, discussion (6:15 - 7:00)<br>
-2.5 hours lab time (7:00 - 9:30)<br>
-20 min. wrap up & questions (9:30 - 9:50)
+10 min. retrospective & review
+50 min. lecture
+2.5 hours lab time
+20 min. wrap up & questions
 
 We will begin the evening with a discussion of the previous week's work, followed by a lecture and interactive coding session to introduce and this material may not be available anywhere else.  I will post code to D2L, and there may be notes posted, but it is not guaranteed to have all of the details or information covered.  You will be tested on the material covered in the lectures.
 
-The better part of the class will be interactive lab learning which you are expected to complete in-class with a partner.  You will be graded on the completion of the labs, and your participation and ability to work with your partner.  If you are not coming to class prepared and are not actively participating in lab, you should expect that to be reflected in your lab and participation grades.
+The better part of the class will be interactive lab learning which you are expected to complete in-class with a partner. There will be a homework lab that follows up on this which will be due before the next class. You will be graded on the completion of the labs, and your participation and ability to work with your partner.  If you are not coming to class prepared and are not actively participating in lab, you should expect that to be reflected in your lab and participation grades.
 
 ## Materials - Text Book & Software
 There is no textbook for this class.  All of the materials you need are available on the web, for free.  If you picked up the *recommended* text book for the other section, I'd suggest returning it.  That needs to be done the first two weeks of class and you will need a receipt.  
@@ -59,26 +66,35 @@ This is a way to reach out to me and your fellow students outside of class, you 
 
 There are links to D2L and the chatroom on the course home page under Quicklinks.  There are also links to the main course website and chatroom on D2L.
 
+__Student Email__
+All email communication will come through D2L, which is configured by default to use your official student email account.  (You can edit the email address in your D2L profile.)  You are expected to check email regularly for updates, and are responsible for ensuring that you receive these messages.
+
 
 ## Grades
 This is a quick summary of grading policies.  There is more information on grading on the course website and in the syllabus.  Please read through it and ask if you have any questions.  It's important to understand how your work and progress in the course will be assessed.
 
-### Assignments
-Each week there will be problems assigned for you to work on, most of which will involve writing and debugging programs. These assignments come in three categories:
+### Participation & Professionalism
+The course schedule is posted on D2L and outlines session topics and major due dates for the semester. It is expected that you will attend and participate in class each week.  You will receive a weekly grade for the work done in class.  This may include one or more in-class activities or a quiz.
 
-- Laboratory exercises are short, relatively simple exercises designed to introduce a new topic. You'll do these during the scheduled lab time in class.
-- Practice assignments are slightly more involved versions of lab exercises, meant to illustrate and explore new topics. These assignments are not graded, though you may discuss and review solutions with your peers or over office hours with the instructor.
-- Project assignments are larger assignments intended to teach you how to combine ideas from the course in interesting ways. These will take more time to complete, and you should start them early to ensure that you finish on time.  You are encouraged to discuss the project with other students, but your final solution should be your own individual work.  Discuss concepts and share ideas, not code.
+*_These assignments are in-class activities and cannot be made up or turned in late._*
+
+To encourage participation, a portion of this grade will be based on effort and engagement.  This grade will be given at the end of the semester, and is a subjective value determined by the instructor and measures your engagement in class during lab and lecture as well as the online chat.
+
+### Lab Assignments
+Each week will have a combination of in-class and homework labs. In-class lab exercises are shorter and should be completed as a pair before the end of class.  Homework labs follow up on the topics introduced in class and should be done individually.  They are due in the D2L dropbox before the start of the next class.
+
+###Projects
+Project assignments are larger assignments intended to teach you how to combine ideas from the course in interesting ways. These will take more time to complete, and you should start them early to ensure that you finish on time.  You are encouraged to discuss the project with other students, but your final solution should be your own individual work.  Discuss concepts and share ideas, not code.
 
 ### Exams
 There will be 3 exams that you will take in-class.  These cover discussion and concept questions from lecture and coding problems.  You will get a sheet of notes for for each exam, and you can also bring the previous exam notes as well.  So for the first exam you can have one sheet of notes.  For the second exam you can have two, and for the final exam you can have three sheets of notes. The notes must be handwritten (no tiny computer printing) and on a sheet of paper no larger than 8 x 11 inches. You may use both the front and back of the sheet of paper.  
 
-The first two exams will be done with Snap!  The first exam will cover the material up to lists.  The second exam will cover all of our Snap! topics.  The final exam will be done in Python and may include any topic covered in the course.  This sounds tough, but it shouldn't seem so bad as you see how the topics covered one week lead into the next.  It is very much a cumulative course.  There's nothing you get to learn then forget.
+The first two exams will be done with Snap!  The first exam will cover the material up to lists.  The second exam will cover all of our Snap! topics.  The final exam will be done in Python and may include any topic covered in the course.  This sounds tough, but it shouldn't seem so bad as you see how the topics covered one week lead into the next.  It is very much a cumulative course.  There's nothing you get to learn and then forget.
 
 ### Clobber Policy
 The clobber policy allows you to replace one early exam grade with a later exam grade.  We will have three exams.  You can "clobber" any earlier exam with a later one - so use your second exam score to replace the first.  This is a one directional replacement.  You can't use a good early exam to replace a later one.  Thus, the last exam, the final exam, will always stick.  
 
-Because of this policy I will not be offering make up exams.  The intent of this is to allow me to go over the exams the same day they are given.  This allows you to learn from your mistakes and see alternate ways to solve the problems.  In exceptional circumstances, a make-up or rescheduled final exam may be offered, but as this is the last week of class, it may result in an Incomplete grade.  This must be discussed with the instructor before missing the exam.  Do this as soon as possible.
+Because of this policy I will not be offering make up exams.  The intent of this is to allow me to go over questions and answers from the exams with the class after the exam is given. This allows you to learn from your mistakes and see alternate ways to solve the problems.  In exceptional circumstances, a make-up or rescheduled final exam may be offered, but as that takes place the last week of class, it may result in an Incomplete grade.  This must absolutely *must* be discussed with the instructor before missing the exam and should be early as possible.
 
 ### Bonus Points
 Over the course of the semester, you can earn *bonus* points for going above and beyond either in class, in the chatroom, or by doing the *extras* in the assignments. The amount of points that you accumulate over the semester may help bump you up over a grade boundary, i.e. from an B+ to an A. There is no set count of extra credit points, and the merits of the points are determined by the instructor as final grades for the class are determined.
