@@ -60,5 +60,8 @@ sessions:
             url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/3-conditionals-hw.topic&course=htc_s16.html"
             worksheet_url: "/assets/labs/split/lab3-hw.pdf"
 
-
+    projects:
+      -
+        title: "Project 1: Word Guessing Game"
+        url:  "/assets/practice/proj1_wordGuessing.pdf"
 ---
