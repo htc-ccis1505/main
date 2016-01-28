@@ -1,21 +1,20 @@
 ---
 layout: notes
 ---
-# Abstraction & Generalization
+# Generalization
 Last week we talked about the idea of computational thinking and listed several key principles we'd be discussing in this course:
 
-- generalization
 - abstraction
+- generalization
 - decomposition
 - creativity
 - data and information
 - algorithms
 
-We talked a bit about abstraction last week.  Let's see what you remember...  
-(Please start with your name as you answer lecture/discussion questions.)
+We talked a bit about abstraction last week.  Let's see what you remember...
 
 ## Generalization
-This week we are going to discuss generalization which overlaps a bit with the idea of abstraction.  As you make something more abstract and remove details, often you are also generalizing as you do this.  But abstraction is really more about the hiding of the details or establishing that *line* at which you don't need to know what the details below that line are.  Generalization is more concerned with finding common ground between various things or situations, allowing us to make a general form - a sort of template - for them.
+This week we are going to discuss generalization which overlaps a bit with the idea of abstraction.  As you make something more abstract and remove details, you are often  generalizing as you do this.  But abstraction is really more about the hiding of the details or establishing that *line* at which you don't need to know what the details below that line are.  Generalization is more concerned with finding common ground between various things or situations, allowing us to make a general form - a sort of template - for them.
 
 <blockquote>
 1. a. To reduce to a general form, class, or law.<br>&nbsp;&nbsp;&nbsp;
@@ -97,6 +96,3 @@ Going back to the sandwich making...
 - The “make sandwich” function might be used by the “make lunch” function
 - The “make lunch” function might also be used by the “get ready for school” function
 - It’s even possible the “get ready for school” function does nothing but use other functions.
-
-
- 

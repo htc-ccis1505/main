@@ -42,5 +42,23 @@ sessions:
             url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/2-loops-blocks-hw.topic&course=htc_s16.html"
             worksheet_url: "/assets/labs/split/lab2-hw.pdf"
 
+  - #Session 3
+    lectures:
+      -
+        title: "Generalization Lecture"
+        notes_url: "/lecture_notes/generalization.html"
+        slides_url: "/assets/slides/generalization-v2.pdf"
+
+    labs:
+      -
+        inclass:
+            title: "Variables and Conditions"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/3-conditionals-v2.topic&course=htc_s16.html"
+            worksheet_url: "/assets/labs/split/lab3-inclass.pdf"
+        athome:
+            title: "Simple Games"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/3-conditionals-hw.topic&course=htc_s16.html"
+            worksheet_url: "/assets/labs/split/lab3-hw.pdf"
+
 
 ---
