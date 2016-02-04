@@ -43,7 +43,7 @@ Looking at the pieces we've broken out, we can start to think about the variable
 ## Time to Code!
 
 ### Set up
-To start things off, we'll make the global variables for the player name and guess count.  Then we can start off our script with the hat block to run when the green flag is clicke and make script variables for secret number, player guess, and play again.
+To start things off, we'll make the global variables for the player name and guess count.  Then we can start off our script with the hat block to run when the green flag is clicked and make script variables for secret number, player guess, and play again.
 
 <img src="../assets/images/number-guessing/setup.png" alt="Start of the script. On green flag, create variables: secret number, player guess, play again.">
 
@@ -129,7 +129,7 @@ The handle incorrect guess requires that we also know the secret number to give 
 
 <img src="../assets/images/number-guessing/handle-incorrect.png" alt="The handle incorrect guess block described above.">
 
-Our final step is to add this into our main script.  Notice how our final script uses __composition__ - it is composed of all the other blocks pulled together. 
+Our final step is to add this into our main script.  Notice how our final script uses __composition__ - it is composed of all the other blocks pulled together.
 
 <img src="../assets/images/number-guessing/main-script.png" alt="The final main script updated with an if block to see if the guess is correct and the handle correct and incorrect blocks used in the if and else.">
 

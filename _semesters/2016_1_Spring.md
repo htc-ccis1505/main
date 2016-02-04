@@ -59,9 +59,37 @@ sessions:
             title: "Simple Games"
             url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/3-conditionals-hw.topic&course=htc_s16.html"
             worksheet_url: "/assets/labs/split/lab3-hw.pdf"
-
     projects:
       -
         title: "Project 1: Word Guessing Game"
         url:  "/assets/practice/proj1_wordGuessing.pdf"
+
+  - #Session 4
+    lectures:
+      -
+        title: "Quiz 1"
+      -
+        title: "Decomposition & the Number Game"
+        notes_url: "/lecture_notes/number_game_solution.html"
+      -
+        title: "Peek Ahead - Number Game in python"
+        notes_url: "/lecture_notes/looking_ahead.html"
+
+    labs:
+      -
+        inclass:
+            title: "Abstraction & Testing"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/4-abstraction-testing-v2.topic&course=htc_s16.html"
+            worksheet_url: "/assets/labs/split/lab4-inclass.pdf"
+        athome:
+            title: "99 Bottles"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/intro_pair/99-bottles-hw.topic&course=htc_s16.html"
+            worksheet_url: "/assets/labs/split/lab4-hw.pdf"
+
+  - #Session 5
+    lectures:
+      -
+        title: "Exam 1 (Remember your notes!)"
+      -
+        title: "Project 1 Due"
 ---
