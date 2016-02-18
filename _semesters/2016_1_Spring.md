@@ -92,4 +92,25 @@ sessions:
         title: "Exam 1 (Remember your notes!)"
       -
         title: "Project 1 Due"
+
+
+  - #Session 6
+    lectures:
+      -
+        title: "Review & Looking Ahead"
+      -
+        title: "Peek Ahead - Number Game in python"
+        notes_url: "/lecture_notes/looking_ahead.html"
+
+    labs:
+      -
+        inclass:
+            title: "Lab 5: Lists and Higher Order Functions (HOFs)"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/lists/lists-I.topic"
+            worksheet_url: "/assets/labs/lab5.pdf"
+
+    projects:
+      -
+        title: "Project 2: Hangman Game"
+        url:  "/assets/practice/proj2_hangmanGame.pdf"
 ---
