@@ -113,4 +113,27 @@ sessions:
       -
         title: "Project 2: Hangman Game"
         url:  "/assets/practice/proj2_hangmanGame.pdf"
+
+
+  - #Session 7
+    lectures:
+      -
+        title: "Quiz 2"
+      -
+        title: "Algorithms"
+        notes_url: "/lecture_notes/algorithms.html"
+        slides_url: "/assets/slides/algorithms.pdf"
+
+    labs:
+      -
+        inclass:
+            title: "Lab 6: Algorithms and Performance"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/areas/algorithms.topic"
+            worksheet_url: "/assets/labs/split/lab6.pdf"
+        athome:
+            title: "ToDo List"
+            url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/lists/todo-hw.topic"
+            worksheet_url: "/assets/labs/split/lab6-hw.pdf"
+
+
 ---
