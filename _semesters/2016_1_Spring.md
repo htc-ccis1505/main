@@ -161,7 +161,7 @@ sessions:
 
     projects:
       -
-        title: "Project 2: Hangman Game"
+        title: "Extra Project: Pig Latin"
         url:  "/assets/practice/extra_pigLatin.pdf"
 
 ---
