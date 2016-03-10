@@ -159,10 +159,9 @@ sessions:
         title: "Snap Exam 2"
 #        notes_url: "/lecture_notes/recursion.html"
 
-    labs:
+    projects:
       -
-        athome:
-          title: "Extra Practice"
-          worksheet_url: "/assets/practice/extra_pigLatin.pdf"
+        title: "Project 2: Hangman Game"
+        url:  "/assets/practice/extra_pigLatin.pdf"
 
 ---
