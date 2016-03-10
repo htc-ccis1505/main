@@ -153,4 +153,16 @@ sessions:
           url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/recursion/recursion-practice.topic&course=htc_s16.html&novideo&noreading&noassignment"
           #worksheet_url: "/assets/labs/split/lab6-hw.pdf"
 
+  - #Session 9
+    lectures:
+      -
+        title: "Snap Exam 2"
+#        notes_url: "/lecture_notes/recursion.html"
+
+    labs:
+      -
+        athome:
+          title: "Extra Practice"
+          worksheet_url: "/assets/practice/extra_pigLatin.pdf"
+
 ---
