@@ -157,11 +157,28 @@ sessions:
     lectures:
       -
         title: "Snap Exam 2"
-#        notes_url: "/lecture_notes/recursion.html"
 
     projects:
       -
         title: "Extra Project: Pig Latin"
         url:  "/assets/practice/extra_pigLatin.pdf"
+
+
+  - #Session 10
+    lectures:
+      -
+        title: "Exam 2 Review"
+      -
+        title: "Welcome to Python!"
+
+    labs:
+      -
+        inclass:
+          title: "Besides Blocks: Welcome to Python"
+          url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/welcome.topic&course=htc_s16.html"
+          #worksheet_url: "/assets/labs/worksheet-lab8.pdf"
+        athome:
+          title: "Besides Blocks: More Python"
+          url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/welcome-hw.topic&course=htc_s16.html"
 
 ---
