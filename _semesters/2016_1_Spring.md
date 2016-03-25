@@ -181,4 +181,8 @@ sessions:
           title: "Besides Blocks: More Python"
           url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/welcome-hw.topic&course=htc_s16.html"
 
+    projects:
+      -
+        title: "Project 3: Python Port"
+        url:  "/assets/practice/proj3_pythonPort.pdf"
 ---
