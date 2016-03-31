@@ -185,4 +185,26 @@ sessions:
       -
         title: "Project 3: Python Port"
         url:  "/assets/practice/proj3_pythonPort.pdf"
+
+
+      - #Session 11
+        lectures:
+          -
+            title: "Functions, conditionals and for-loops"
+          -
+            title: "No class next week - Work on your project!"
+        labs:
+          -
+            inclass:
+              title: "Lab 9: Besides Blocks: Python Functions, Conditions, and More Loops"
+              url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/functions-conds-loops.topic&course=htc_s16.html"
+              #worksheet_url: "/assets/labs/worksheet-lab8.pdf"
+            athome:
+              title: "Lab 9 Homework: Besides Blocks: More Functions, Conditions, and Loops"
+              url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/functions-hw.topic&course=htc_s16.html"
+
+        projects:
+          -
+            title: "Project 3: Python Port"
+            url:  "/assets/practice/proj3_pythonPort.pdf"
 ---
