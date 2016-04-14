@@ -207,4 +207,20 @@ sessions:
       -
         title: "Project 3: Python Port"
         url:  "/assets/practice/proj3_pythonPort.pdf"
+
+  - #Session 12
+    lectures:
+      -
+        title: "Lists in Python"
+      -
+        title: "WPO Students (no class next week) - Work on project 4"
+    labs:
+      -
+        title: "Lab 10: Besides Blocks: Lists and Data Structures in Python"
+        url: "http://htc-ccis1505.github.io/main-labs/topic/topic.html?topic=htc_fund/python/besides-blocks-data-struct.topic&course=htc_f15.html&novideo&noreading&noassignment"
+
+    projects:
+      -
+        title: "Project 4: Caesar Cipher"
+        url:  "/assets/practice/proj4_caesarCipher.pdf"
 ---
