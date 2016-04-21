@@ -232,7 +232,7 @@ sessions:
         title: "Lecture code samples will be posted to D2L"
     labs:
       -
-        title: "Lab 12: Introduction to Object Oriented Programming"
+        title: "Lab 11: Introduction to Object Oriented Programming"
         url: "http://htc-ccis1505.github.io/main-labs/prog-new/python/objects.py"
         worksheet_url: "/lecture_notes/objectLectureNotes.pdf"
 
