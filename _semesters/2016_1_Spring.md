@@ -222,7 +222,7 @@ sessions:
     projects:
       -
         title: "Project 4: Caesar Cipher"
-        url:  "/assets/practice/proj4_caesarCipher.pdf"
+        url:  "/assets/practice/proj4_caesarCipher_py.pdf"
 
   - #Session 13
     lectures:
